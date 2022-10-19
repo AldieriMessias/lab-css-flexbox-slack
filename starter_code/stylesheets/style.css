@@ -1,10 +1,322 @@
-/*
-background purple: #540B51
-background ivory: #F3EAE2
-button blue: #4285F4
-titles black: #191817
-paragraph black: #000000
-paragraph yellow: #ECB12F
-links blue: #2E71A6
-footer links grey: #454245
-*/
+
+.bgp{
+    background-color: #540b51;
+}
+
+.bgi{
+    background-color: #f3eae2;
+}
+
+.span{
+    color:#540b51;
+    font-weight: bold;
+    font-size: 250%;
+    
+}
+
+.ul2 {
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+}
+
+.btnGoogle{
+    background-color: #4285f4;
+}
+.btnGoogle img{
+    border:0;
+    background-color: lightgray; 
+
+}
+
+.logo1{
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+@media screen and (width <768px ){
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .container0{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+   .header{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+   }
+    
+   
+   .flexcontainer1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   }
+
+
+
+   
+
+   .section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    ;
+
+   }
+
+   .section1 p{
+padding-bottom: 25px;
+padding-top: 25px;;
+   }
+
+
+   .ci1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: ;
+    
+   }
+
+   .ci1 img{
+    width: 25%;
+    height: 30%
+   };
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ;
+}
+
+
+   .divsection2{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        padding: top 50px; ;
+   }
+
+   .section3{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .divsection3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 1.5em;
+   }
+
+   .divsection4{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 1.5em;
+    padding-bottom:45px;
+    padding-top: 50px;
+   }
+
+   .section5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    padding-top: 35px;
+    font-size: 1.5em;
+   }
+
+   .section6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:100px ;
+    border-radius:0 0 200px 200px ;
+    align-items: center;
+   }
+
+   .btn20{
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 15px;
+    padding:5px;
+    font-size: 1.3em ;
+    border-radius: 5px;
+   }
+
+   .btn21{
+    width: 80%;
+    padding: 5px;
+    font-size: 1.3em;
+    color: #540b51;
+    border-radius: 5px;
+   }
+
+   .section6 h3{
+    font-size: 2em;
+    color: white;
+   }
+
+    h1{
+        font-size: 4em;
+        text-align: center;
+        width: 80%;
+    }
+    .p1{
+        font-size: 1.5em
+        
+        ;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-between
+        ;
+    }
+
+    .btn1{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding-bottom: 15px;
+        
+    }
+
+    .btnsu{
+       margin-bottom: 15px;
+       padding: 10px;
+       font-size: 1.4em;
+       border-radius: 5px;
+    }
+    .btnGoogle{
+        display: flex;
+        align-items: center;
+        gap: 130px;
+        font-size: 1.4em;
+        color: white;
+        border-radius: 5px;
+        
+    }
+
+    .btnGoogle span{
+       
+    }
+    .btnGoogle img{
+        width: 30px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .ci1{
+        display: flex;
+    }
+
+    .ul1{
+        display: none;
+    }
+    .btn0{
+        background-color: #540b51;
+    }
+
+    .img1{
+        width: 90%;;
+        
+    }
+.footer1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.divflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ul2flex{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.ul1flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.img2{
+    width: 90%;
+}
+
+.img3{
+    width: 90%;
+    ;
+}
+.img4{
+    width: 90%;
+}
+
+.divbtn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.divbtn1 button{
+    width: 90%;
+    border: 1px solid #540b51;
+    padding: 15px;
+    margin: 5px;
+}
+
+.btn10{
+    background-color: #540b51;
+    color: white; 
+    border:1px solid #540b51;
+    border-radius: 5px;
+}
+
+.btn11{
+    border: 1px solid #540b51;
+    color: #540b51;
+    border-radius: 5px;
+}
+
+
+}
